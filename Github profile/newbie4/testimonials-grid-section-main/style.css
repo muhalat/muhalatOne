@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+#container{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    border-radius:50%;
+    border: purple solid 2px;
+}
+h4{
+    color:hsl(0, 0%, 100%);
+    display: grid;
+    
+}
+h5{
+    color:hsl(0, 0%, 100%);
+    opacity:50%;
+}
+.span-diff{
+    color:hsl(219, 29%, 14%);
+    opacity: 50%;
+  
+}
+.h4-diff{
+    color:hsl(219, 29%, 14%);
+    
+    
+}
+.head{
+    color:hsl(0, 0%, 100%);
+    opacity: 70%;
+}
+.head2{
+    color:hsl(219, 29%, 14%);
+    opacity: 70%;
+}
+span{
+    color:hsl(0, 0%, 100%);
+    opacity: 50%; 
+}
+.main{
+    color:hsl(0, 0%, 100%);
+    opacity: 45%;
+}
+.main2{
+    color:hsl(219, 29%, 14%);
+    opacity: 35%;
+}
+.Daniel{
+    background-color:hsl(263, 55%, 52%);
+    margin : 10px;
+    border-radius:15px;
+    padding: 25px;
+}
+
+.Jonathan{
+    background-color:hsl(217, 19%, 35%);
+    margin : 10px;
+    border-radius:15px;
+    padding: 25px;
+}
+
+.Jeanette{
+    background-color:hsl(0, 0%, 100%);
+    margin : 10px;
+    border-radius:15px;
+    padding: 25px;
+}
+
+.Kira{
+    background-color:hsl(0, 0%, 100%);
+    margin : 10px;
+    border-radius:15px;
+    padding: 25px;
+}
+
+.Patrick{
+    background-color:hsl(219, 29%, 14%);
+    margin : 10px;
+    border-radius:15px;
+    padding: 25px;
+}
