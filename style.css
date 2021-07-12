@@ -1,0 +1,114 @@
+
+body{
+   background-image: url(images/moo.jpg); 
+   background-attachment: fixed;
+   background-size: cover;
+   margin: 0;
+}
+
+#navigation{
+    
+    height:35px;
+    background-color: #777;
+    background-image: url(images/nav.png);
+}
+#main-navigation{
+    width:1000px;
+    height: 35px;
+    margin: 0px 30px;
+    background-color:#888;
+    background-image: url(images/nav.png);
+    display: flex;
+    flex-direction: row;
+}
+#main-navigation a{
+    text-decoration: none;
+    line-height: 35px;
+    color:#060;
+    padding:0 53px;
+    border-left: 1px #ccc inset;
+    border-right: 1px #ccc inset;
+    float: left;
+}
+#main-navigation a:hover{
+    background-image: url(images/hover.jpg);
+    color:white;
+}
+section{
+    background: hsl(185, 75%, 39%);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.card{
+    background: white;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-header{
+    background-image: url(images/bg-pattern-card.svg);
+    background-size:cover;
+    height: 159px;
+   
+}
+.card-body{
+    padding: 0 20px 25px;
+}
+.image-holder{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+}
+.image-holder img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.name-age{
+    color:  black;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.age,.city,.meta{
+    color: hsl(0, 2%, 20%);
+    font-weight: 400;
+    opacity: .5;
+}
+.age{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.city{
+    font-size:1rem;
+}
+.card-footer{
+    border-top: 1px solid hsl(0, 3%, 86%);
+    display: flex;
+    font-weight: 400;
+    padding: 0 25px;
+}
+.card-footer .item{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-footer .item .value{
+    font-size:1rem;
+    margin-bottom: 6px;
+}
+.card-footer .item .meta{
+    font-size:.7rem;
+    letter-spacing: 1px;
+}
